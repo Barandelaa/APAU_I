@@ -16,8 +16,8 @@ def eliminar_lineas_con_exp_regular(archivo, expresion):
         f.writelines(lineas_filtradas)
 
 if __name__ == "__main__":
-    nombre_archivo = 'tu_archivo.data'  # Reemplaza con el nombre de tu archivo
-    expresion_regular = r'tu_expresion'  # Reemplaza con tu expresión regular
+    nombre_archivo = 'prueba.data'  # Reemplaza con el nombre de tu archivo
+    expresion_regular = r'ME2'  # Reemplaza con tu expresión regular
 
     eliminar_lineas_con_exp_regular(nombre_archivo, expresion_regular)
     print(f"Líneas eliminadas en {nombre_archivo} que coinciden con la expresión '{expresion_regular}'.")
